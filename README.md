@@ -7,8 +7,8 @@
 
  ## Ícones
 
-:package: nova funcionalidade
- :up:atualização
- :beetle:correção bug
- :checkered_flag:release
+- :package: nova funcionalidade
+- :up:atualização
+- :beetle:correção bug
+- :checkered_flag: release
 
