@@ -18,6 +18,7 @@
     --font-action:"Mulish", serif;
 }
 
+/* HEADER */
 .hamburguer {
     width: 2rem;
     height: 2rem;
@@ -238,3 +239,9 @@ header {
     background: #555;
     transition: .5s;
 }
+
+/* 
+    display: flex; ALINHAMENTO DENTRO DO ELEMENTO PAI
+    justify-content: space-evenly; ALINHAMENTO VERTIVAL
+    align-items: center; ALINHAMENTO VERTICAL
+*/
