@@ -274,11 +274,32 @@ header {
 */
 
 /* SESSÃO CONHECIMENTOS -- APLICANDO GRID-CSS 16col 6line*/
+
+.sessao-conhecimentos {
+    background: #f0f0f0;
+}
+
+.sessao-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao-header h1 {
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: #4b4b4b;
+    border-bottom: solid 2px #999;
+    margin-bottom: 3.5rem;
+    margin-top: 3rem;
+}
+
+
 .conhecimentos {
     display: grid;
     grid-template-columns: repeat(16, 1fr);/*16vezes a 1 frame cada frame*/
     grid-template-rows: repeat(6, 6rem);
-    row-gap: .5rem;
+    row-gap: 3rem;
 }
 
 .conhecimento:nth-child(1){
@@ -288,7 +309,7 @@ header {
 
 .conhecimento:nth-child(2){
     grid-column: 3 / 6;
-    grid-row: 3 / 5;
+    grid-row: 3 / 7;
 }
 
 .conhecimento:nth-child(3){
@@ -311,38 +332,38 @@ header {
     grid-row: 5 / -1;
 }
 
-.sessao-conhecimentos {
-    background: #f0f0f0;
-}
 
-.sessao-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sessao-header h1 {
-    font-family: var(--font-primary);
-    font-size: 3rem;
-    color: #4b4b4b;
-    border-bottom: solid 2px #999;
-    margin-bottom: 3.5rem;
-    margin-top: 3rem;
-}
 
 .conhecimento-header i {
     font-size: 2.5rem;
+    float: left;
     color: #4b4b4b;
 }
 
 .conhecimento-header h3 {
     font-family: var(--font-secundary);
     font-size: 2rem;
+    color: #4b4b4b;
     padding-left: 1rem;
+    position: relative;
+    top: 100%;
+    margin-left: 1.5rem;
 }
 
 .conhecimento-text {
     font-family: var(--font-primary);
     margin-top: 1rem;
+    font-weight: 600;
+    color: #4b4b4b;
+
 }
-*/
+
+.conhecimentos-img-wrapper {
+    grid-column: 6 / 11;
+    grid-row: 2 / 2;
+}
+
+.conhecimentos-img-wrapper img {
+    object-fit:cover;
+    width: 100%;
+}
